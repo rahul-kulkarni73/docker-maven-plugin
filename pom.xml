@@ -6,7 +6,7 @@
 
   <groupId>com.github.rahul-kulkarni73</groupId>
   <artifactId>docker-maven-plugin</artifactId>
-  <version>isolationTech-v0.34.0-g57a83e7-20</version>
+  <version>0.34-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
 
   <name>docker-maven-plugin</name>
