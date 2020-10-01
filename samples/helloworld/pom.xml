@@ -63,7 +63,7 @@
       </plugin>
 
       <plugin>
-        <groupId>io.fabric8</groupId>
+        <groupId>com.github.rahul-kulkarni73</groupId>
         <artifactId>docker-maven-plugin</artifactId>
         <configuration>
           <images>

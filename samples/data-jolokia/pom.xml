@@ -80,7 +80,7 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>io.fabric8</groupId>
+        <groupId>com.github.rahul-kulkarni73</groupId>
         <artifactId>docker-maven-plugin</artifactId>
         <extensions>true</extensions> <!-- enables using 'docker' packaging above -->
         <configuration>
@@ -233,7 +233,7 @@
       <build>
         <plugins>
           <plugin>
-            <groupId>io.fabric8</groupId>
+            <groupId>com.github.rahul-kulkarni73</groupId>
             <artifactId>docker-maven-plugin</artifactId>
             <configuration combine.self="override">
               <watchPostGoal>org.apache.maven.plugins:maven-help-plugin:help</watchPostGoal>
@@ -297,7 +297,7 @@
       <build>
         <plugins>
           <plugin>
-            <groupId>io.fabric8</groupId>
+            <groupId>com.github.rahul-kulkarni73</groupId>
             <artifactId>docker-maven-plugin</artifactId>
             <configuration combine.self="override">
               <images>
@@ -362,7 +362,7 @@
       <build>
         <plugins>
           <plugin>
-            <groupId>io.fabric8</groupId>
+            <groupId>com.github.rahul-kulkarni73</groupId>
             <artifactId>docker-maven-plugin</artifactId>
             <configuration combine.self="override">
               <autoPull>true</autoPull>
@@ -413,7 +413,7 @@
       <build>
         <plugins>
           <plugin>
-            <groupId>io.fabric8</groupId>
+            <groupId>com.github.rahul-kulkarni73</groupId>
             <artifactId>docker-maven-plugin</artifactId>
             <configuration combine.self="override">
               <images>
@@ -435,7 +435,7 @@
       <build>
         <plugins>
           <plugin>
-            <groupId>io.fabric8</groupId>
+            <groupId>com.github.rahul-kulkarni73</groupId>
             <artifactId>docker-maven-plugin</artifactId>
             <configuration combine.self="override">
               <images>
@@ -522,7 +522,7 @@
       <build>
         <plugins>
           <plugin>
-            <groupId>io.fabric8</groupId>
+            <groupId>com.github.rahul-kulkarni73</groupId>
             <artifactId>docker-maven-plugin</artifactId>
             <configuration>
               <machine>

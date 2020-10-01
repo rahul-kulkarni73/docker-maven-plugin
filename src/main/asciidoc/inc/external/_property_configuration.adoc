@@ -414,7 +414,7 @@ For example, to not merge ports, set `docker.ports._combine=replace`, and to ena
 <build>
   <plugins>
     <plugin>
-      <groupId>io.fabric8</groupId>
+      <groupId>com.github.rahul-kulkarni73</groupId>
       <artifactId>docker-maven-plugin</artifactId>
       <configuration>
         <images>
@@ -447,7 +447,7 @@ For example, to not merge ports, set `docker.ports._combine=replace`, and to ena
 <build>
   <plugins>
     <plugin>
-      <groupId>io.fabric8</groupId>
+      <groupId>com.github.rahul-kulkarni73</groupId>
       <artifactId>docker-maven-plugin</artifactId>
       <configuration>
         <images>
@@ -504,7 +504,7 @@ Global ~/.m2/settings.xml file:
 <build>
   <plugins>
     <plugin>
-      <groupId>io.fabric8</groupId>
+      <groupId>com.github.rahul-kulkarni73</groupId>
       <artifactId>docker-maven-plugin</artifactId>
       <configuration>
         <images>
@@ -538,7 +538,7 @@ By adding an explicit external configuration directive with the same prefix in b
 <build>
   <plugins>
     <plugin>
-      <groupId>io.fabric8</groupId>
+      <groupId>com.github.rahul-kulkarni73</groupId>
       <artifactId>docker-maven-plugin</artifactId>
       <configuration>
         <images>

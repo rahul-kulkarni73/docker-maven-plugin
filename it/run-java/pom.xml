@@ -20,7 +20,7 @@
 
     <plugins>
       <plugin>
-        <groupId>io.fabric8</groupId>
+        <groupId>com.github.rahul-kulkarni73</groupId>
         <artifactId>docker-maven-plugin</artifactId>
         <executions>
           <execution>
@@ -33,7 +33,7 @@
         </executions>  
         <dependencies>
           <dependency>
-            <groupId>io.fabric8</groupId>
+            <groupId>com.github.rahul-kulkarni73</groupId>
             <artifactId>run-java-sh</artifactId>
             <version>1.2.2</version>
           </dependency>

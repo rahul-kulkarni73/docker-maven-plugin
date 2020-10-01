@@ -27,7 +27,7 @@
     <finalName>dmp-sample-zero-config</finalName>
     <plugins>
       <plugin>
-        <groupId>io.fabric8</groupId>
+        <groupId>com.github.rahul-kulkarni73</groupId>
         <artifactId>docker-maven-plugin</artifactId>
       </plugin>
     </plugins>

@@ -37,7 +37,7 @@
     <pluginManagement>
       <plugins>
         <plugin>
-          <groupId>io.fabric8</groupId>
+          <groupId>com.github.rahul-kulkarni73</groupId>
           <artifactId>docker-maven-plugin</artifactId>
           <version>${docker.maven.plugin.version}</version>
         </plugin>

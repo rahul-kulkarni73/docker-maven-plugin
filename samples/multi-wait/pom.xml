@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>io.fabric8</groupId>
+  <groupId>com.github.rahul-kulkarni73</groupId>
   <artifactId>dmp-sample-multi-wait</artifactId>
   <version>0.34-SNAPSHOT</version>
   <!-- Sample exhibiting connection error described in https://github.com/fabric8io/docker-maven-plugin/issues/574 -->
@@ -14,7 +14,7 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>io.fabric8</groupId>
+        <groupId>com.github.rahul-kulkarni73</groupId>
         <artifactId>docker-maven-plugin</artifactId>
         <configuration>
           <logDate>none</logDate>
