@@ -6,7 +6,7 @@
     <parent>
         <groupId>io.fabric8.dmp.samples</groupId>
         <artifactId>dmp-sample-parent</artifactId>
-        <version>isolationTech-new</version>
+        <version>isolationTech-new-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
