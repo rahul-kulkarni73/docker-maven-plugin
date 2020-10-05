@@ -5,7 +5,7 @@
   </prerequisites>
 
   <!--This is a test to trigger jit build. Maven 3.5.4-->
-  <groupId>com.github.rahul-kulkarni73</groupId>
+  <groupId>com.microfocus.rahul-kulkarni73</groupId>
   <artifactId>docker-maven-plugin</artifactId>
   <version>isolationTech-new-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
