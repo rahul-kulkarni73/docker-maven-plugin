@@ -39,6 +39,8 @@
     <jmockit.version>1.43</jmockit.version>
     <surefire.version>3.0.0-M2</surefire.version>
     <jib-core.version>0.15.0</jib-core.version>
+    <corporateMavenSnapshotRepositoryUrl>https://svsartifactory.swinfra.net:443/artifactory/saas-snapshot-local</corporateMavenSnapshotRepositoryUrl>
+    <corporateMavenReleaseRepositoryUrl>https://svsartifactory.swinfra.net:443/artifactory/saas-release-local</corporateMavenReleaseRepositoryUrl>
   </properties>
 
   <dependencies>
@@ -415,16 +417,16 @@
   </build>
 
   <distributionManagement>
-    <snapshotRepository>
-      <id>sonatype-nexus-snapshots</id>
-      <name>Sonatype Nexus Snapshots</name>
-      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-    </snapshotRepository>
     <repository>
-      <id>sonatype-nexus-staging</id>
-      <name>Nexus Release Repository</name>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      <id>corporate-maven-releases</id>
+      <name>Internal Company Releases</name>
+      <url>${corporateMavenReleaseRepositoryUrl}</url>
     </repository>
+    <snapshotRepository>
+      <id>corporate-maven-snapshots</id>
+      <name>Internal Company Snapshots</name>
+      <url>${corporateMavenSnapshotRepositoryUrl}</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <issueManagement>
